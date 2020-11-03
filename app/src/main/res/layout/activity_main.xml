@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/main_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#6A6400"
+        android:textColor="@color/titleColor"
+        android:textSize="34sp"
+        android:text="Game Page"/>
+
+    <Button
+        android:id="@+id/main_BTN_popUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click To pop Up"/>
+
+
+    <TextView
+        android:id="@+id/main_LBL_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="64sp"
+        android:textColor="#000000"
+        android:text="sdfsdfs"/>
+
+    <Button
+        android:id="@+id/main_BTN_increaseCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Increase Counter"/>
+
+    <Button
+        android:id="@+id/main_BTN_secondActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Activity"/>
+
+
+</LinearLayout>

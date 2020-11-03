@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#453454"
+    tools:context=".Activity_Score">
+
+    <TextView
+        android:id="@+id/score_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Your Score:"
+        android:textColor="@color/titleColor"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/score_LBL_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score_LBL_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:textSize="120sp"
+        android:textColor="@color/titleColor"
+        android:text="00"
+        />
+
+    <Button
+        android:id="@+id/score_BTN_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="34sp"
+        android:padding="24dp"
+        android:textAllCaps="false"
+        android:text="Close"
+        />
+
+
+</RelativeLayout>
